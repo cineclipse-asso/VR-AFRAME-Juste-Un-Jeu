@@ -14,7 +14,6 @@
     
 	 <a-scene log="console: false">
 
-         <!-- The original example also has this 180 degree rotation, to appear to be going forward. -->
          <a-videosphere rotation="0 -90 0" src="#vidAmorce" projection util class="choix" ></a-videosphere>
          <a-plane src="#imgReagisPas" material="transparent: true" height="4" width="10" position="-9 0 -10" rotation="0 0 0" opacity="0" class="" choix choixReaction util id="REAGIS_PAS"></a-plane>
          <a-plane src="#imgReagis"material="transparent: true" height="4" width="10" position="9 0 -10" rotation="0 0 0" opacity="0" class="" choix choixReaction util id="REAGIS"></a-plane>
@@ -42,7 +41,7 @@
          </a-camera>
 
       <a-assets>
-          <video preload="auto" id="vidIntro" style="display:none" crossorigin="anonymous" playsinline loop="true" webkit-playsinline>
+            <video preload="auto" id="vidIntro" style="display:none" crossorigin="anonymous" playsinline loop="true" webkit-playsinline>
               <source type="video/mp4" src="/web/vr/vid/vidIntro.mp4" /></video>
             <video preload="auto" id="vidInit" style="display:none" crossorigin="anonymous" playsinline webkit-playsinline>
               <source type="video/mp4" src="/web/vr/vid/vidInit.mp4" /></video>
