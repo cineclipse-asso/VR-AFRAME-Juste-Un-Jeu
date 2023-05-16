@@ -29,7 +29,7 @@ Cela permettrait de rétablir un fonctionnement cohérent du component util ains
 Les echecs successifs afin d'envoyer et surtout de récupérer des paramètres lors d'un .emit().
 ```
 
-###Suivre Cinéclipse :
+### Suivre Cinéclipse :
 
 [Tout nos réseaux][lien-alllink]  
 [Notre chaîne Youtube][lien-youtube]
