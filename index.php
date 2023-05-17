@@ -16,7 +16,7 @@
 
          <a-videosphere rotation="0 -90 0" src="#vidAmorce" projection util class="choix" ></a-videosphere>
          <a-plane src="#imgReagisPas" material="transparent: true" height="4" width="10" position="-9 0 -10" rotation="0 0 0" opacity="0" class="" choix choixReaction util id="REAGIS_PAS"></a-plane>
-         <a-plane src="#imgReagis"material="transparent: true" height="4" width="10" position="9 0 -10" rotation="0 0 0" opacity="0" class="" choix choixReaction util id="REAGIS"></a-plane>
+         <a-plane src="#imgReagis" material="transparent: true" height="4" width="10" position="9 0 -10" rotation="0 0 0" opacity="0" class="" choix choixReaction util id="REAGIS"></a-plane>
 
          <a-plane src="#imgFilme" material="transparent: true" height="4" width="10" position="-9 0 -10" rotation="0 0 0" opacity="0" class="" choix choixIntervention util id="FILME"></a-plane>
          <a-plane src="#imgInterpose" material="transparent: true" height="4" width="10" position="9 0 -10" rotation="0 0 0" opacity="0" class="" choix choixIntervention util id="INTERPOSE"></a-plane>
