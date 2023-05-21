@@ -13,20 +13,6 @@ en collaboration avec Cinéclipse, le Grand Cordel MJC, la MJC de La Bellangerai
 #### Modifications à venir
 ```
 - Gestion optimisée du chargement des ressources
-- Ajout de la gestion audio ambiphonique sur 8 canaux
-```
-
-
-#### Erreurs connues
-Le temps a été priorisé sur l'optimisation, en résulte une architecture  en micro-service
-non-aboutie ( notamment sur la gestion des choix).     
-Les dupliqués de code proviennent des difficultés suivantes :
-```
-Si choix.* est un component à part, alors les.emit() du component util ne lui parviennent mystérieusement pas.
-Cela permettrait de rétablir un fonctionnement cohérent du component util ainsi que d'apporter une organisation plus convenable.
-```
-```
-Les echecs successifs afin d'envoyer et surtout de récupérer des paramètres lors d'un .emit().
 ```
 
 ### Suivre Cinéclipse :
