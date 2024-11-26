@@ -36,14 +36,21 @@ AFRAME.registerComponent('choix', {
 
         this.el.setAttribute( 'animation__mouseleave-scale',{
             'property':'scale', 'startEvents':'mouseleave', 'easing':'linear', 'dur':'200', 'from':'0.9 0.9 0.9', 'to':'1 1 1'});
+			
+		document.querySelector("#vidGenerique").addEventListener("ended", (e) => {
+			console.log("-> end of credit, back to main menu !");
+			this.el.emit("selection", { video: "vidIntro", categorie: "hiddenMenu", categorieSuivante: "choixMenu"});
+		});
     },
 
     onClick: function (evt) {
         console.log("->" + evt.target.getAttribute('data-choix'));
+        console.log(THREE.Cache);
         this.el.emit("selection", {
             video: evt.target.getAttribute('data-vid'),
             categorie: evt.target.getAttribute('data-choix'),
             categorieSuivante: evt.target.getAttribute('data-suivant')});
+        document.querySelector("#click").play();
     },
 
     apparitionChoix: function(){
