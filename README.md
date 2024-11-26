@@ -3,22 +3,35 @@
 Une expérience en VR écrite et jouée par des jeunes de 13 à 24 ans,
 en collaboration avec Cinéclipse, le Grand Cordel MJC, la MJC de La Bellangerais, Le Claire Détour et Le Relai.
 
-#### Pour vivre l'expérience
+#### Experience this short film
 [Juste Un Jeu][lien-experience]
 
-#### Framework et librairies utilisés 
+#### Framework & library used 
 [A-Frame][lien-aframe]   
 [aframe-ambisonic-component][lien-ambisonic]
 
-#### Modifications à venir
+#### Update
+
+I am sorry to announce that I will **no longer** be able to **maintain this project**,
+due to lack of time, lack of VR headset, and the loss of our web host (don't forget to provide SSL for headset use).
+
+Probably a good thing because I'm absolutely not a web developer.
+
+**I hope this project will be useful as a starting point :)**
+
+#### Final Thoughts
+_Some avenues for improvement :_
 ```
-- Gestion optimisée du chargement des ressources
+- An optimized resource management ( like as preloaded the next two potential videos after selecting a choice )
+- Three.js cache management
+- Higher order Ambisonic
+- A good refacto lmao
 ```
 
-### Suivre Cinéclipse :
+### Follow Cinéclipse :
 
-[Tout nos réseaux][lien-alllink]  
-[Notre chaîne Youtube][lien-youtube]
+[Social networks][lien-alllink]  
+[Youtube channel][lien-youtube]
 
 
 [lien-experience]: https://juste-un-jeu/ "Cliquez ici !"
