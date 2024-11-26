@@ -25,6 +25,7 @@ _Some avenues for improvement :_
 - An optimized resource management ( like as preloaded the next two potential videos after selecting a choice )
 - Three.js cache management
 - Higher order Ambisonic
+- Automatic network speed test to switch between SD and HQ quality video ( for now there are two "different" site, one with 10 Mbits/s vidéo and one "HQ" in the url with 100 Mbits/s )
 - A good refacto lmao
 ```
 
