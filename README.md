@@ -6,11 +6,11 @@ en collaboration avec Cinéclipse, le Grand Cordel MJC, la MJC de La Bellangerai
 ### Experience this short film
 [Juste Un Jeu][lien-experience]
 
-### Framework & library used 
+## Framework & library used 
 [A-Frame][lien-aframe]   
 [aframe-ambisonic-component][lien-ambisonic]
 
-### Update
+## Update
 
 I am sorry to announce that I will **no longer** be able to **maintain this project**,
 due to lack of time, lack of VR headset, and the loss of our web host (don't forget to provide SSL for headset use).
@@ -19,7 +19,7 @@ Probably a good thing because I'm absolutely not a web developer.
 
 **I hope this project will be useful as a starting point :)**
 
-#### Final Thoughts
+### Final Thoughts
 _Some avenues for improvement :_
 ```
 - An optimized resource management ( like as preloaded the next two potential videos after selecting a choice )
