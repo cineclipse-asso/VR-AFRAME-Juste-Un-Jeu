@@ -28,6 +28,8 @@ _Some avenues for improvement :_
 - A good refacto lmao
 ```
 
+Code by OLIVIER Philippe, for Cinéclipse.
+
 ### Follow Cinéclipse :
 
 [Social networks][lien-alllink]  
