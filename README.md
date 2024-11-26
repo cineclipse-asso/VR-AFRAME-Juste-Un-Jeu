@@ -3,14 +3,14 @@
 Une expérience en VR écrite et jouée par des jeunes de 13 à 24 ans,
 en collaboration avec Cinéclipse, le Grand Cordel MJC, la MJC de La Bellangerais, Le Claire Détour et Le Relai.
 
-#### Experience this short film
+### Experience this short film
 [Juste Un Jeu][lien-experience]
 
-#### Framework & library used 
+### Framework & library used 
 [A-Frame][lien-aframe]   
 [aframe-ambisonic-component][lien-ambisonic]
 
-#### Update
+### Update
 
 I am sorry to announce that I will **no longer** be able to **maintain this project**,
 due to lack of time, lack of VR headset, and the loss of our web host (don't forget to provide SSL for headset use).
