@@ -6,7 +6,7 @@ en collaboration avec Cinéclipse, le Grand Cordel MJC, la MJC de La Bellangerai
 ### Experience this short film
 [Juste Un Jeu][lien-experience]
 
-## Framework & library used 
+### Framework & library used 
 [A-Frame][lien-aframe]   
 [aframe-ambisonic-component][lien-ambisonic]
 
